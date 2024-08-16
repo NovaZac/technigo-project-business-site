@@ -1,10 +1,10 @@
 # Business Site
+The assignment was to create a business one-pager website and i choose to make one where users can book appointments for various dog services. The primary focus was on practicing HTML forms, with additional elements like an image header to enhance the design.
 
-Replace this readme with your own information about the project. You can include things like:
+I started by planning the layout, emphasizing user-friendly navigation. The core feature was the booking form, where users could select different dog services. Where I added radio buttons, different labels, and a submit button. For example input fields for specific details like service type and appointment time.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+With more time, I would among other things implement validation error messages to provide helpful feedback when required fields are not filled in correctly.
+
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://happypawsss.netlify.app/
