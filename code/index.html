@@ -9,46 +9,45 @@
   </head>
 
   <body>
+    <!-- START Hero image with text  -->
     <header class="hero-image">
       <div class="hero-text">
         <h1>Happy Paws</h1>
       </div>
-        <!-- <img class="background" src="./assets/pexels-chevanon-1108099.jpg" alt="dogs" width="100%"/> -->
     </header>
+    <!-- END hero image with text -->
 
+    <!-- Text that describes what teh page is for   -->
     <div class="title">
       <h1>Book an Appointment</h1>
       <h2>Set Up Your Dog's Spa Day</h2>
     </div>
 
     <form action="https://httpbin.org/anything" method="post">
-
+      <!-- different radio buttons for choosing spa type -->
       <fieldset class="options">
         <div class="radio-box">
           <input type="radio" id="nailtrimming" name="options" required>
-              <!-- <img src="./assets icons8-paws-64.png" alt="paws"> -->
           <label for="nailtrimming">Nail Trimming</label>
         </div>
           
         <div class="radio-box">
           <input type="radio" id="bathing" name="options">
-              <!-- <img src="./assets/icons8-bath-64.png" alt="bathing"> --> 
           <label for="bathing">Bathing</label>
          </div>
 
         <div class="radio-box">
           <input type="radio" id="doggrooming" name="options">
-             <!-- <img src="./assets/icons8-barber-clippers-100.png" alt="doggrooming"> -->
           <label for="doggrooming">Dog grooming</label>
         </div>
 
         <div class="radio-box">
           <input type="radio" id="other" name="options">
-             <!-- <img src="./assets/icons8-dog-64 (1).png" alt="other"> -->
           <label for="other">Other</label>
       </fieldset>
 
       <fieldset class="information">
+        <!-- Fields to book an appointment with provided information -->
         <label>
           Name
           <input type="text" name="name" placeholder="Alex Alexsson" required/>
@@ -70,13 +69,15 @@
         </label>
       </fieldset>
 
+      <!-- an additional message label where users can write any special instructions or details -->
       <fieldset class="message">
         <label>
           Additonal Message
           <input type="text" name="message" placeholder="Please include any special instructions or details" required>
         </label>
       </fieldset>
-
+      
+      <!-- submit button -->
       <fieldset class="submit">
         <button type="submit">Book Appointment</button>
       </fieldset>
